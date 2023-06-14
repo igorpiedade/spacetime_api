@@ -8,11 +8,17 @@ import multipart from '@fastify/multipart'
 import { memoriesRoutes } from './routes/memories'
 import { authRoutes } from './routes/auth'
 import { uploadRoutes } from './routes/upload'
+import { resolve } from 'node:path'
 
 const app = fastify()
 const port: number = 3333
 
 app.register(multipart)
+
+app.register(require('@fastify/static'), {
+  root: resolve(__dirname, '../uploads'),
+  prefix: '/uploads',
+})
 
 app.register(cors, {
   // Add here the production front-end URL to lock the API accessebility
