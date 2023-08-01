@@ -35,8 +35,6 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-<img src="/public/images/screenshot.png">
-
 Spacetime is an study application that provides a nice way for users to save and share important milestones of their lifes. 
 The project is separeted in 3 repositores, one for each piece:
 
