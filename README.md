@@ -91,7 +91,7 @@ Igor Piedade - igor@piedade.live
 [Nodejs-url]: https://nodejs.org
 [Fastify.dev]: https://img.shields.io/badge/Fastify-black?style=for-the-badge&logo=fastify&logoColor=white
 [Fastify.dev-url]: https://fastify.dev
-[Prisma.io]: https://img.shields.io/badge/Fastify-2D3748?style=for-the-badge&logo=prisma
+[Prisma.io]: https://img.shields.io/badge/Prisma-2D3748?style=for-the-badge&logo=prisma
 [Prisma.io-url]: https://www.prisma.io
 [SQLite.org]: https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=SQLite
 [SQLite-url]: https://www.sqlite.org
